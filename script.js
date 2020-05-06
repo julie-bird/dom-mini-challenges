@@ -68,6 +68,6 @@ lightBulb.addEventListener("click", (e) => {
         light.classList.toggle("light-on");
     } else {
         light.remove();
-        lightBulb.disabled = true;
+        lightBulb.disabled = true;  //hard! when I try to use bulbButton with querySelector, it only disables the first button and if I change it to querySelectorAll, NOTHING HAPPENS
     }
 });
